@@ -1,0 +1,20 @@
+pkgbase = env-modules
+	pkgdesc = Provides for an easy dynamic modification of a user's environment via modulefile.
+	pkgver = 4.7.0
+	pkgrel = 1
+	url = https://sourceforge.net/projects/modules/
+	install = env-modules.install
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	checkdepends = dejagnu
+	depends = tcl>=7.4
+	depends = procps
+	conflicts = env-modules
+	replaces = env-modules
+	backup = etc/modules/init/modulerc
+	source = https://sourceforge.net/projects/modules/files/Modules/modules-4.7.0/modules-4.7.0.tar.gz
+	md5sums = 24e39071a94b52cd6d09d65601519ebf
+
+pkgname = env-modules
+

@@ -1,0 +1,16 @@
+pkgbase = repotools
+	pkgdesc = Utility for creating and maintaining custom user repositories.
+	pkgver = 0.1.1
+	pkgrel = 3
+	url = https://github.com/cezarmathe/repotools
+	arch = x86_64
+	license = MIT
+	depends = git
+	depends = aurutils
+	backup = etc/repotools.conf
+	source = repotools-0.1.1.tar.gz::https://github.com/cezarmathe/repotools/archive/v0.1.1.tar.gz
+	validpgpkeys = 61C1AF95BB594AD40DEEB7103F8F89E56422CBA8
+	sha256sums = SKIP
+
+pkgname = repotools
+
